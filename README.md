@@ -6,9 +6,9 @@
 ## Anggota Kelompok
 | NRP | Nama |
 |:-----------:|:--------:|
-| 5025xxxxxx  | xxxxxxxxxxxxxxx  |
-| 5025xxxxxx  | xxxxxxxxxxxxxxx  |
-| 5025xxxxxx  | xxxxxxxxxxxxxxx  |
+| 5025231169  | Medericus Mundi Miseridityo |
+| 5025231199  | Felda Ega Fadhila  |
+| 5025231230  | Irfan Priyo Putranto  |
 
 ## Aplikasi Web yang dibuat
 

@@ -10,8 +10,7 @@
 | 5025231199  | Felda Ega Fadhila  |
 | 5025231230  | Irfan Priyo Putranto  |
 
-## Progress Kelompok
-Progress
+## Progres Kelompok
 - [x] Project Setup 
 - [x] Auth Routes Setup 
 - [x] MongoDB Setup 

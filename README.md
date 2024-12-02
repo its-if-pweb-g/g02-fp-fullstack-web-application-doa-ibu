@@ -10,6 +10,34 @@
 | 5025231199  | Felda Ega Fadhila  |
 | 5025231230  | Irfan Priyo Putranto  |
 
+## Progress Kelompok
+Progress
+- [x] Project Setup 
+- [x] Auth Routes Setup 
+- [x] MongoDB Setup 
+- [x] Create User Model 
+- [x] Sign Up Endpoint 
+- [x] Generate JWT 
+- [x] Login Endpoint 
+- [x] Logout Endpoint 
+- [ ] Create Message Model
+- [ ] Create Conversation Model
+- [ ] Send Message Endpoint
+- [ ] Protect Route Middleware
+- [ ] Get Messages Endpoint
+- [ ] Get Users for Sidebar Endpoint
+- [ ] UI Design
+- [ ] SignUp Functionality
+- [ ] Create AuthContext 
+- [ ] Logout Functionality
+- [ ] Login Functionality
+- [ ] Get Conversations
+- [ ] Send Message Functionality
+- [ ] Get Messages
+- [ ] Search Conversation
+- [ ] Implementing Socket.io
+- [ ] Finally Deployment!
+
 ## Aplikasi Web yang dibuat
 
 ### Fitur yang dibuat

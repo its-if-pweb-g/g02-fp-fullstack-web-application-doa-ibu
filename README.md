@@ -19,10 +19,10 @@
 - [x] Generate JWT 
 - [x] Login Endpoint 
 - [x] Logout Endpoint 
-- [ ] Create Message Model
-- [ ] Create Conversation Model
-- [ ] Send Message Endpoint
-- [ ] Protect Route Middleware
+- [x] Create Message Model
+- [x] Create Conversation Model
+- [x] Send Message Endpoint
+- [x] Protect Route Middleware
 - [ ] Get Messages Endpoint
 - [ ] Get Users for Sidebar Endpoint
 - [ ] UI Design

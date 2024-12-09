@@ -20,7 +20,8 @@ const userSchema = new mongoose.Schema({
     },
 },{
     collection: 'doa-ibu'
-});
+},
+{ timestamps: true });
 
 const User = mongoose.model("User", userSchema);
 

@@ -67,3 +67,41 @@ export const getMessages = async (req, res) => {
 		res.status(500).json({ error: "Internal server error" });
 	}
 };
+
+export const seenMessage = async (req, res) => {
+	try {
+		const { id: userToChatId } = req.params;
+		const senderId = req.user._id;
+  
+	  const conversation = await Conversation.findOne({
+		participants: { $all: [senderId, userToChatId] },
+	}).populate("messages"); // NOT REFERENCE BUT ACTUAL MESSAGES'
+	
+	  if (!conversation) {
+		return res.status(404).json({ error: "Conversation not found" });
+	  }
+  
+	  if (!conversation.participants.includes(userId)) {
+		return res.status(403).json({ error: "You are not authorized to mark these messages as seen" });
+	  }
+  
+	  await Message.updateMany(
+		{ _id: { $in: conversation.messages.filter((msg) => !msg.read).map((msg) => msg._id) } },
+		{ $set: { read: true } }
+	  );
+  
+	  const receiverId = conversation.participants.find(
+		(participant) => participant.toString() !== userId.toString()
+	  );
+	  const receiverSocketId = getReceiverSocketId(receiverId);
+	  if (receiverSocketId) {
+		io.to(receiverSocketId).emit("messagesSeen", { conversationId });
+	  }
+  
+	  res.status(200).json({ message: "Messages marked as read successfully" });
+	} catch (error) {
+	  console.log("Error in seenMessage controller: ", error.message);
+	  res.status(500).json({ error: "Internal server error" });
+	}
+  };
+  

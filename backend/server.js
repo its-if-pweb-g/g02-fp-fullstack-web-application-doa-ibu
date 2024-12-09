@@ -3,6 +3,7 @@ import dotenv from "dotenv";
 import cookieParser from "cookie-parser";
 import authAPI from "./routes/auth.routes.js";
 import messageAPI from "./routes/message.routes.js";
+import userAPI from "./routes/user.routes.js";
 import connectMongoDB from "./database/connectMongoDB.js";
 
 const app = express();
@@ -15,6 +16,7 @@ app.use(cookieParser());
 
 app.use("/api/auth", authAPI);
 app.use("/api/messages", messageAPI);
+app.use("/api/users", userAPI)
 
 // app.get("/", (req, res) => {
 //   res.send("Hello!");

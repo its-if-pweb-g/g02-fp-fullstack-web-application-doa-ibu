@@ -10,36 +10,22 @@
 | 5025231199  | Felda Ega Fadhila  |
 | 5025231230  | Irfan Priyo Putranto  |
 
-## Progres Kelompok
-- [x] Project Setup 
-- [x] Auth Routes Setup 
-- [x] MongoDB Setup 
-- [x] Create User Model 
-- [x] Sign Up Endpoint 
-- [x] Generate JWT 
-- [x] Login Endpoint 
-- [x] Logout Endpoint 
-- [x] Create Message Model
-- [x] Create Conversation Model
-- [x] Send Message Endpoint
-- [x] Protect Route Middleware
-- [ ] Get Messages Endpoint
-- [ ] Get Users for Sidebar Endpoint
-- [ ] UI Design
-- [ ] SignUp Functionality
-- [ ] Create AuthContext 
-- [ ] Logout Functionality
-- [ ] Login Functionality
-- [ ] Get Conversations
-- [ ] Send Message Functionality
-- [ ] Get Messages
-- [ ] Search Conversation
-- [ ] Implementing Socket.io
-- [ ] Finally Deployment!
-
 ## Aplikasi Web yang dibuat
 
+Aplikasi ini adalah proyek berbasis MERN Stack (MongoDB, Express.js, React, Node.js) yang dirancang untuk menyediakan fitur chat real-time dengan performa tinggi dan pengalaman pengguna yang mulus. Dibangun menggunakan kombinasi teknologi modern seperti JWT untuk autentikasi dan otorisasi yang aman, serta Socket.io untuk mendukung komunikasi real-time antar pengguna. 
+
+
 ### Fitur yang dibuat
+
+🎃 Autentikasi & Otorisasi: Keamanan data pengguna dijaga dengan JWT (JSON Web Token) untuk login dan pengelolaan akses.
+
+👾 Pesan Real-time: Nikmati pengalaman mengobrol tanpa jeda dengan integrasi Socket.io untuk komunikasi waktu nyata.
+
+🚦 Status Pengguna Online: Memanfaatkan Socket.io dan React Context untuk menampilkan status online pengguna secara langsung.
+
+👌 Manajemen State Global: Seluruh state aplikasi dikelola dengan rapi menggunakan Zustand, memberikan performa ringan dan kemudahan pengembangan.
+
+🐞 Penanganan Error: Error ditangani dengan baik, baik dari sisi server maupun klien, untuk memberikan pengalaman pengguna yang mulus dan bebas gangguan.
 
 ### Link Deployment (jika ada)
 

@@ -60,19 +60,10 @@ MongoDB
 
 ## Cara menjalankan aplikasi
 
-Frontend:
-
-```
-cd ./frontend
-npm run dev
-```
-
-Backend:
-
 Di direktori utama
-
 ```
-npm run server
+npm run build
+npm run dev
 ```
 
 

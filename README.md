@@ -60,6 +60,22 @@ MongoDB
 
 ## Cara menjalankan aplikasi
 
+Frontend:
+
+```
+cd ./frontend
+npm run dev
+```
+
+Backend:
+
+Di direktori utama
+
+```
+npm run dev
+```
+
+
 ## Progress pembuatan dan pembagian tugas per anggota
 
 ## Dokumentasi website

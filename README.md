@@ -79,4 +79,20 @@ npm run dev
 ## Progress pembuatan dan pembagian tugas per anggota
 
 ## Dokumentasi website
-`masukkan gambar dari website yang dibuat`
+
+# Login Page
+
+![image](https://github.com/user-attachments/assets/d8c88f96-a693-4ba3-b9db-5b2e14669ee3)
+
+
+# Register Page
+
+![image](https://github.com/user-attachments/assets/d1cc5763-107e-45a4-9569-829f9c710e79)
+
+
+# Chat Page
+
+![image](https://github.com/user-attachments/assets/26d953ab-ce48-4883-91e9-b6bb22a90e35)
+
+
+

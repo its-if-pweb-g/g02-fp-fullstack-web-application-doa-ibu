@@ -72,11 +72,37 @@ Backend:
 Di direktori utama
 
 ```
-npm run dev
+npm run server
 ```
 
 
 ## Progress pembuatan dan pembagian tugas per anggota
+
+Progress
+1. Project Setup ✅ (Medericus)
+2. Auth Routes Setup ✅ (Medericus)
+3. MongoDB Setup ✅ (Medericus)
+4. Create User Model ✅ (Medericus)
+5. Sign Up Endpoint ✅ (Medericus)
+6. Generate JWT ✅ (Medericus)
+7. Login Endpoint ✅ (Medericus)
+8. Logout Endpoint ✅ (Ega)
+9. Create Message Model ✅ (Ega)
+10. Create Conversation Model ✅ (Ega)
+11. Send Message Endpoint ✅ (Ega)
+12. Protect Route Middleware ✅ (Ega)
+13. Get Messages Endpoint ✅(Ega)
+14. Get Users for Sidebar Endpoint ✅ (Ega)
+15. UI Design ✅ (Irfan)
+16. SignUp Functionality ✅ (Irfan)
+17. Create AuthContext ✅ (Irfan)
+18. Logout Functionality ✅ (Medericus)
+19. Login Functionality ✅ (Medericus)
+20. Get Conversations ✅ (Medericus)
+21. Send Message Functionality ✅ (Medericus)
+22. Get Messages ✅ (Medericus)
+23. Search Conversation ✅ (Medericus)
+24. Implementing Socket.io ✅ (Ega)
 
 ## Dokumentasi website
 

@@ -19,7 +19,7 @@ Aplikasi ini adalah proyek berbasis MERN Stack (MongoDB, Express.js, React, Node
 
 🎃 Autentikasi & Otorisasi: Keamanan data pengguna dijaga dengan JWT (JSON Web Token) untuk login dan pengelolaan akses.
 
-👾 Pesan Real-time: Nikmati pengalaman mengobrol tanpa jeda dengan integrasi Socket.io untuk komunikasi waktu nyata.
+👾 Pesan Real-time: Pengalaman mengobrol tanpa jeda dengan integrasi Socket.io untuk komunikasi waktu nyata.
 
 🚦 Status Pengguna Online: Memanfaatkan Socket.io dan React Context untuk menampilkan status online pengguna secara langsung.
 
@@ -35,16 +35,19 @@ https://doa-ibu-chat-app.onrender.com
 # Frontend:
 
 1. React.js
-
 2. TailwindCSS
-
 3. Daisy UI
+4. Zustand
+5. Toast
 
 # Backend
 
-1. Node.js:
-
-2. Express.js:
+1. MERN Stack ( MongoDB, Express, Node, React)
+2. Node.js
+3. Express.js
+4. JWT
+5. Socket.io
+6. React.js
    
 # Database:
 ```

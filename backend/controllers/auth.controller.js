@@ -38,6 +38,7 @@ export const register = async (req, res) => {
       username,
       password:hashedPassword,
       profilePicture: lastname !== null ? fullProfilePicture : partialProfilePicture,
+      role: "User", 
     });
 
     // add jwt token to the cookies

@@ -94,5 +94,10 @@ npm run dev
 
 ![image](https://github.com/user-attachments/assets/26d953ab-ce48-4883-91e9-b6bb22a90e35)
 
+# Logout
+
+![image](https://github.com/user-attachments/assets/e47f2c39-1014-42ea-b9f7-13f7f5c86fd9)
+
+
 
 

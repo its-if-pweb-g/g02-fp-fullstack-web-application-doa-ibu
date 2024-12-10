@@ -31,6 +31,33 @@ Aplikasi ini adalah proyek berbasis MERN Stack (MongoDB, Express.js, React, Node
 
 ## Teknologi yang digunakan
 
+# Frontend:
+
+1. React.js
+
+2. TailwindCSS
+
+3. Daisy UI
+
+# Backend
+
+1. Node.js:
+
+2. Express.js:
+   
+# Database:
+```
+MongoDB
+```
+
+# Autentikasi & Keamanan:
+
+`JWT (JSON Web Token): Untuk autentikasi pengguna dan pengelolaan hak akses secara aman.`
+
+#Komunikasi Real-Time:
+
+`Socket.io: Mendukung pesan real-time, status pengguna online, dan notifikasi.`
+
 ## Cara menjalankan aplikasi
 
 ## Progress pembuatan dan pembagian tugas per anggota

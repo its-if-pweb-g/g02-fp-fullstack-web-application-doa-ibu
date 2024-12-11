@@ -74,7 +74,7 @@ npm run start
 ## Progress pembuatan dan pembagian tugas per anggota
 
 Progress
-1. Project Setup ✅ (Medericus)
+1. Project Setup ✅ (Medericus, Ega)
 2. Authentication ✅ (Medericus)
 3. MongoDB ✅ (Medericus)
 4. User Model ✅ (Medericus)
